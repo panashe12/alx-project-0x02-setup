@@ -1,5 +1,5 @@
 import React from "react";
-import { CardProps } from "@/interfaces"; // if you use aliases
+import { type CardProps } from "@/interfaces"; // if you use aliases
 // or use relative path:
 // import { CardProps } from "../../interfaces";
 
