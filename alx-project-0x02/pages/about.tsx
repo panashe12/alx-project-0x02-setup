@@ -1,4 +1,6 @@
 // app/about/page.tsx
+import React from "react";
+import Button from "@/components/common/Button";
 
 export default function AboutPage() {
   return (
@@ -8,6 +10,12 @@ export default function AboutPage() {
         This is the About page of your ALX Project.  
         Everything here is fully customizable.
       </p>
+
+      <div style={{ marginTop: "20px" }}>
+        <Button label="Small Rounded" size="small" shape="rounded-sm" onClick={() => alert("Small clicked")} />
+        <Button label="Medium Rounded" size="medium" shape="rounded-md" onClick={() => alert("Medium clicked")} />
+        <Button label="Large Rounded Full" size="large" shape="rounded-full" onClick={() => alert("Large clicked")} />
+      </div>
     </div>
   );
 }
