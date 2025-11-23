@@ -1,6 +1,6 @@
 // components/common/Button.tsx
 import React from "react";
-import { ButtonProps } from "../../interfaces"; // relative path from components/common
+import { type ButtonProps } from "../../interfaces"; // relative path from components/common
 
 export default function Button({ label, size = "medium", shape = "rounded-md", onClick }: ButtonProps) {
   const sizeClasses: Record<string, string> = {
