@@ -45,3 +45,8 @@ export interface Product {
   price: number;
   inStock: boolean;
 }
+
+export interface CardProps {
+  title: string;
+  content: string;
+}
