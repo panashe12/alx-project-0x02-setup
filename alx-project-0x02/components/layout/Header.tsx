@@ -13,19 +13,19 @@ export default function Header() {
         alignItems: "center",
       }}
     >
-      <h1>alx-project-2</h1>
+      <h1>alx-project-0x02</h1>
 
       <nav>
         <Link href="/" style={{ color: "white", marginRight: "15px" }}>
           Home
         </Link>
 
-        <Link href="/about" style={{ color: "white", marginRight: "15px" }}>
-          About
+        <Link href="/home" style={{ color: "white", marginRight: "15px" }}>
+          /home
         </Link>
 
-        <Link href="/contact" style={{ color: "white" }}>
-          Contact
+        <Link href="/about" style={{ color: "white", marginRight: "15px" }}>
+          /about
         </Link>
       </nav>
     </header>
