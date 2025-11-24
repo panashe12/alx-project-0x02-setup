@@ -4,7 +4,7 @@ import PostModal from "../components/common/PostModal";
 import { CardProps } from "../interfaces";
 
 // ✅ Import the Header component
-import Header from "../components/layout/Header";
+import Header from "@/components/layout/Header";
 
 export default function HomePage() {
   const [cards, setCards] = useState<CardProps[]>([
