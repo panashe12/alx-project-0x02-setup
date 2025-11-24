@@ -27,6 +27,8 @@ export default function Header() {
         <Link href="/about" style={{ color: "white", marginRight: "15px" }}>
           /about
         </Link>
+        
+        <Link href="/posts">Posts</Link>
       </nav>
     </header>
   );
