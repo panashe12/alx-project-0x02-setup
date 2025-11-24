@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/layout/Header"; // ← added
+import Header from "@/components/layout/Header"; // ← added
 import Button from "../components/common/Button";
 
 export default function AboutPage() {
